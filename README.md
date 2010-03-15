@@ -3,7 +3,7 @@
 Description
 ===========
 
-A library that makes environment dependent configuration easy.
+A library that makes environment dependent configuration easy in rails.
 
 Rationale
 ========

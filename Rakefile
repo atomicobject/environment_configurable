@@ -18,8 +18,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "environment_configurable"
-    s.summary = "A library that makes environment dependent configuration easy using YAML."
-    s.description = "A library that makes environment dependent configuration easy using YAML."
+    s.summary = "A library that makes environment dependent configuration easy in rails."
+    s.description = "A library that makes environment dependent configuration easy in rails."
     s.email = "github@atomicobject.com"
     s.homepage = "http://github.com/atomicobject/environment_configurable"
     s.authors = ["Atomic Object"]
