@@ -1,0 +1,2 @@
+test:
+  path: <%= Rails.root %>/the/path

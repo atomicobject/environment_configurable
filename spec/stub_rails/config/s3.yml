@@ -1,0 +1,20 @@
+production: &DEFAULTS
+  access_key_id: ACCESS_KEY_ID
+  secret_access_key: SECRET_ACCESS_KEY
+  bucket: the-prod-bucket
+  
+staging:
+  <<: *DEFAULTS
+  bucket: the-staging-bucket
+
+demo:
+  <<: *DEFAULTS
+  bucket: the-demo-bucket
+
+development:
+  <<: *DEFAULTS
+  bucket: the-development-bucket
+
+test:
+  <<: *DEFAULTS
+  bucket: the-test-bucket
